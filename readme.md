@@ -13,6 +13,7 @@ npm install -g firebase-tools
 ```
 firebase login
 # firebase init
+npm run build-service-worker
 firebase use --add # staging
 firebase deploy --only firestore:rules,storage
 firebase deploy --only hosting:afgdos
