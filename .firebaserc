@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "staging": "dos-app-ca61d"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
+}

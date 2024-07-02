@@ -40,6 +40,8 @@
     "indexes": "firestore.indexes.json"
   },
   "hosting": {
+    "site": "afgdos",
+    "public": "public",
     "source": ".",
     "ignore": [
       "firebase.json",

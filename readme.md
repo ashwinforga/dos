@@ -1,5 +1,24 @@
 From https://github.com/firebase/friendlyeats-web/tree/master/nextjs-end
 
+
+# setup
+
+```
+npm install -g firebase-tools
+
+```
+
+# deploy
+
+```
+firebase login
+# firebase init
+firebase use --add # staging
+firebase deploy --only firestore:rules,storage
+firebase deploy --only hosting:afgdos
+```
+
+
 ### Friendly Eats with Next.js + Firebase
 
 The codelab has the full instructions, but as a quick start, you can do this.
